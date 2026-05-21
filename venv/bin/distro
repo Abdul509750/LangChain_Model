@@ -1,0 +1,6 @@
+#!/home/betaknight/Desktop/All_ProjectsInLinux/University_Project/LangChain_Model/venv/bin/python
+import sys
+from distro.distro import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
